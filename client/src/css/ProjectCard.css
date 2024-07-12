@@ -1,0 +1,28 @@
+.project-card {
+    flex-direction: row;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    flex: 1 1 calc(33.333% - 16px);  /* Adjust this value to control the width of the cards */
+    box-shadow: 0 2px 4px #0000001a;
+    background-color: #fff;
+    width: 300px;
+  }
+  
+  .project-card h3 {
+    margin-bottom: 8px;
+  }
+  
+  .project-card .info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.project-card .info svg {
+    margin-right: 8px;
+}
+  .info svg {
+    margin-right: 5px;
+  }
